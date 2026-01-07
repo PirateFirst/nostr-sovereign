@@ -1,0 +1,25 @@
+# --- Nostr relay data ---
+strfry/strfry-db/
+strfry/strfry-db/**
+
+# --- Secrets & keys ---
+*.env
+*.key
+*secret*
+nostr.key
+.env
+
+# --- Build artifacts ---
+strfry/strfry
+strfry/build/
+strfry/build/**
+
+# --- OS / editor noise ---
+.DS_Store
+*.swp
+*.tmp
+*.log
+
+# --- Go / misc ---
+go.sum
+go.work
